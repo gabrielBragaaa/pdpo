@@ -1,4 +1,4 @@
-package com.codadvance.pdpo;
+package com.codeadvance.pdpo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

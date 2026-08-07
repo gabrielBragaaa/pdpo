@@ -1,4 +1,4 @@
-package com.codadvance.pdpo.infraStructure.entities;
+package com.codeadvance.pdpo.infrastructure.entities;
 
 import jakarta.persistence.*;
 import lombok.*;
@@ -16,7 +16,7 @@ public class User {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Integer id;
 
-    @Column(name = "email", unique = true)
+    @Column(name = "email", unique = true) 
     private String email;
 
     @Column(name = "nameUser")

@@ -1,6 +1,6 @@
-package com.codadvance.pdpo.infraStructure.repository;
+package com.codeadvance.pdpo.infrastructure.repository;
 
-import com.codadvance.pdpo.infraStructure.entities.User;
+import com.codeadvance.pdpo.infrastructure.entities.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface UserRepository extends JpaRepository<User,Integer> {
