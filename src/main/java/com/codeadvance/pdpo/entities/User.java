@@ -1,4 +1,4 @@
-package com.codeadvance.pdpo.infrastructure.entities;
+package com.codeadvance.pdpo.entities;
 
 import jakarta.persistence.*;
 import lombok.*;
